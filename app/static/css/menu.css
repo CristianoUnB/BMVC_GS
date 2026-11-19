@@ -1,0 +1,80 @@
+/* menu.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f7;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caixa {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    color: #1e3a5f;
+}
+
+h2 {
+    margin-top: 5px;
+    color: #777;
+}
+
+.turma {
+    font-weight: bold;
+    color: #1e3a5f;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+button {
+    background-color: #1e3a5f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2f5a94;
+}
+
+input, select {
+    padding: 8px;
+    margin: 5px;
+    font-size: 1em;
+}
+
+/* As seções começam escondidas; o JS mostra uma de cada vez */
+.secao {
+    display: none;
+}
+
+.mensagem {
+    font-weight: bold;
+}
+
+/* pre-line faz o \n do texto virar quebra de linha */
+#texto-relatorio {
+    white-space: pre-line;
+    text-align: left;
+}
